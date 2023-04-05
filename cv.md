@@ -24,3 +24,83 @@ Then, someone came into my life with whom I could consult on web development and
 In six months, I mastered basic frontend/backend developer skills and I'm not going to stop there. I believe that **perseverance** and **curiosity**, as well as **discipline** and **determination**, will help me become a skilled and in-demand specialist in the field of web development.
 
 ____
+
+
+
+### Skills: ###
+
+- HTML5, CSS3 *[beginner]* <br>
+- JS *[beginner]* <br>
+- PHP *[beginner]* <br>
+- MySQL *[beginner]* <br>
+
+
+___
+
+### Code examples: ###
+
+```html
+
+<input type="text" placeholder="Введите кол-во мс" id="milli_seconds">
+<button id="stop_time"> Показать время <br> до и после </button>
+
+<div id="show_time_now"></div>
+<div id="show_time_after"></div>
+
+<style>
+  #show_time_now, #show_time_after {
+    display: none;
+  }
+</style>
+
+<script> 
+
+// получаем кнопку, инпут и два дива
+
+let btn = document.querySelector('#stop_time');
+let input = document.querySelector('#milli_seconds');
+let divForShowTimeNow = document.querySelector('#show_time_now');
+let divForShowTimeAfter = document.querySelector('#show_time_after');
+
+  // по нажатии на кнопку...
+
+btn.onclick = function() {
+  
+  // опустошаются, если повторное нажатие
+
+  divForShowTimeNow.innerHTML = '';
+  divForShowTimeAfter.innerHTML = '';
+
+  // считывается введённое значение и выводится первый div
+
+  let milliseconds = input.value;
+
+  data = new Date();
+  hour = data.getHours();
+  minutes = data.getMinutes();
+  seconds = data.getSeconds();
+  let timeRightNow = 'Текущее время: ' + hour + ':' + minutes + ':' + seconds;
+
+  divForShowTimeNow.style.display = 'block';
+  divForShowTimeNow.innerHTML = timeRightNow;
+
+  // спим и выводится второй div
+
+  setTimeout ( function() {
+    data = new Date();
+  hour = data.getHours();
+  minutes = data.getMinutes();
+  seconds = data.getSeconds();
+
+  let timeAfter = 'Время после паузы: ' + hour + ':' + minutes + ':' + seconds;
+
+  divForShowTimeAfter.style.display = 'block';
+  divForShowTimeAfter.innerHTML = timeAfter;
+  }, milliseconds)
+};
+
+</script>
+
+```
+
+____
