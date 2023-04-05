@@ -104,3 +104,38 @@ btn.onclick = function() {
 ```
 
 ____
+
+
+
+### My projects: ###
+
+
+[My first project](https://daniel.fvds.ru/)
+
+____
+
+
+### Education ###
+
++ **Peter the Great St. Petersburg Polytechnic University.**
+    + Faculty of "Biotechnology" 
+    
++ **Stepic**  
+   + "Веб-разработка для начинающих: HTML и CSS"
+   
+
++ **learn.js**  
+   + "basic + DOM"
+
++ **php.zone**
+    + PHP
+    + MySql
+    + Php OOP
+
+____
+
+### Languages ###
+
++ Russian <br>
+
++ English - A2
