@@ -1,3 +1,188 @@
-/* .bgcolor {
+/* HEADER */
+
+.header_wrap {
+
+  background-color: #FFFFFF;
+}
+
+.container {
+
+  margin: 0 auto;
+  margin-top: 67px;
+  margin-bottom: 219px;
+  max-width: 1240px;
+  padding-left: 60px;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+
+.navigation ul {
+
+  padding: 0;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
-} */
+  
+}
+
+.hire_me {
+
+  padding: 11px 32px;
+  background-color: #fff;
+  border: 1px solid #3730A3;
+  border-radius: 6px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3730A3;
+}
+
+.links {
+
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #6B7280;
+}
+
+
+/* <!-- SECOND BLOCK --> */
+
+.second_wrap {
+  background-color: #FFFFFF;
+}
+
+.second_wrap, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.second_block {
+  margin-left: auto; margin-right: auto;
+  padding: 0px 130px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro_hello {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_info {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4338CA;
+}
+
+.main_info h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  color: #1F2937;
+
+  margin-bottom: 40px;
+  
+}
+
+.main_info_first_div {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.line {
+  width: 102px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  
+}
+
+.line hr {
+  border: 1px solid #3730A3;  
+  margin: 0;
+  width: 100%;
+}
+
+.introdution {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #6B7280;
+
+  margin-bottom: 40px;
+}
+.hire {
+  padding: 12px 32px;
+  margin-right: 18px;
+  background: #3730A3;
+  border-radius: 6px;
+  border: 0px solid #000000;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.read_more {
+  padding: 11px 32px;
+  border: 1px solid #3730A3;
+  border-radius: 6px;
+  background: #FFFFFF;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3730A3;
+}
+.work_time {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+}
+
+.photo img {
+  border-radius: 6px;
+  width: 478px;
+  height: 525px;
+  object-fit: cover;
+  object-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
