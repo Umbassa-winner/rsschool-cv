@@ -69,9 +69,10 @@
 
 .second_block {
   margin-left: auto; margin-right: auto;
+  margin-bottom: 198px;
   padding: 0px 130px;
   box-sizing: border-box;
-  max-width: 1440px;
+  max-width: 1480px;
   display: flex;
   justify-content: space-between;
 }
@@ -185,4 +186,150 @@
   background-repeat: no-repeat;
 }
 
+/* THIRD BLOCK */
 
+.third_wrap h5 {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.third_wrap {
+  background-color: #ffffff;
+}
+
+.third_container {
+  max-width: 1480px;
+  box-sizing: border-box;
+  margin-left: auto; margin-right: auto;
+  padding: 0px 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slogan {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.slogan span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.slogan:first-child {
+  color: #1F2937;
+}
+
+.purple {
+  color: #3730A3
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.first_info, .second_info, .third_info {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+
+.about_me, .skills, .my_projects, .code_examples, .education,.languages {
+  width: 520px;
+  border-bottom: 1px solid #3730A3;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.information h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1F2937;
+
+}
+
+.about_me p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+
+}
+
+.skills ul {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+  list-style-type: none;
+}
+
+.skills ul li {
+  margin-bottom: 20px;;
+}
+
+.my_projects a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+  text-decoration: none;
+}
+
+.pre {
+  margin: 0;
+}
+
+.code {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+}
+
+.education ul{
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+
+  list-style-type: none;
+}
+
+.education ul li {
+  margin-bottom: 5px;;
+}
+
+.languages p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6B7280;
+}
