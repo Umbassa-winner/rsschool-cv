@@ -29,18 +29,52 @@
   <!-- HEADER -->
   <header class="header_wrap">
     <div class="container">
+      
       <nav class="navigation">
         <ul>
-          <li><a href="#" class="links">Contacts</a></li>
-          <li><a href="#" class="links">About me</a></li>
-          <li><a href="#" class="links">Skills</a></li>
-          <li><a href="#" class="links">Code examples</a></li>
-          <li><a href="#" class="links">My projects</a></li>
-          <li><a href="#" class="links">Education</a></li>
-          <li><a href="#" class="links">Languages</a></li>
-          <button class="hire_me">Hire me</button>
+          <li><a href="#сontacts" class="links">Contacts</a></li>
+          <li><a href="#about" class="links">About me</a></li>
+          <li><a href="#skills" class="links">Skills</a></li>
+          <li><a href="#code" class="links">Code examples</a></li>
+          <li><a href="#projects" class="links">My projects</a></li>
+          <li><a href="#education" class="links">Education</a></li>
+          <li><a href="#languages" class="links">Languages</a></li>
+            <button class="hire_me">Hire me</button>
         </ul>
       </nav>
+      
+      <div class="small_navigation_div">
+        
+        <div class="header_for_small">
+          <div class="bar" id="bar">
+            <div class="bar_1"> <hr> </div>
+            <div class="bar_2"> <hr> </div>
+            <div class="bar_3"> <hr> </div>
+          </div>
+          <div class="bar_two" id="barTwo">
+            <div class="bar_4"> <hr> </div>
+            <div class="bar_5"> <hr> </div>
+            <div class="bar_6"> <hr> </div>
+          </div>
+        </div>
+
+        <nav class="navigation_small" id="navigation_small">
+          <ul id="smallNavig">
+            <li><a href="#сontacts" class="links">Contacts</a></li>
+            <li><a href="#about" class="links">About me</a></li>
+            <li><a href="#skills" class="links">Skills</a></li>
+            <li><a href="#code" class="links">Code examples</a></li>
+            <li><a href="#projects" class="links">My projects</a></li>
+            <li><a href="#education" class="links">Education</a></li>
+            <li><a href="#languages" class="links">Languages</a></li>
+          </ul>
+            <div class="button_hire_me">
+              <button class="hire_me">Hire me</button>
+            </div>
+          </ul>
+        </nav>
+      </div>
+
     </div>
   </header>
 
@@ -59,9 +93,13 @@
             </div>
             <h1>Code сreate  <br>
               Innovate iterate</h1>
-            <p class="introdution">Hello, I'm Daniel, a Web Developer. If you need a reliable hand to <br> code your digital vision and elevate your online presence, <br> let's join forces.</p>
-            <button class="hire">Hire me</button>
-            <button class="read_more">Portfolio</button>
+              <div class="photo_small"><img src="img/Face.jpg" alt="my_face"></div>
+            <p class="introdution">Hello, I'm Daniel, a Junior Web Developer. If you need a reliable hand to <br> code your digital vision and elevate your online presence, <br> let's join forces.</p>
+            
+            <div class="hire_portfolio">
+              <button class="hire">Hire me</button>
+              <button class="read_more">Portfolio</button>
+            </div>
           </div>
             <p class="work_time">I am currently open to working full-time.</p>
         </div>
@@ -75,13 +113,14 @@
           <span>From initial ideas to a unique web app with <br> branding, from a sketch </span>
           <span class="purple">on paper <br> to the final product.</span>
         </div>
+
           <div class="information">
-            <div class="first_info">
-              <div class="about_me">
+            
+              <div class="about_me" id="about">
                 <h5>About me</h5>
                 <p>I got interested in IT sphere as it seemed unattainable and foreign to me. I used to work on creating advertising videos in Adobe After Effects. Then, I met someone who helped me develop a learning plan for web development. In six months, I mastered basic frontend/backend skills and I plan to continue learning. I believe that perseverance, curiosity, discipline and determination will help me to become a skilled web developer.</p>
               </div>
-              <div class="education">
+              <div class="education" id="education">
                 <h5>Education</h5>
                 <ul>
                   <li>Peter the Great St. Petersburg Polytechnic University - Faculty of “Biotechnology”.</li>
@@ -90,9 +129,9 @@
                   <li>php.zone - PHP, MySql, Php OOP</li>
                 </ul>
               </div>
-            </div>
-            <div class="second_info">
-              <div class="skills">
+           
+            
+              <div class="skills" id="skills">
                 <h5>Skills</h5>
                 <ul>
                   <li>HTML5, CSS3 - lever beginner</li>
@@ -101,30 +140,33 @@
                   <li>MySQL - lever beginner</li>
                 </ul>
               </div>
-              <div class="code_examples">
+              <div class="code_examples" id="code">
                 <h5>Code Examples</h5>
-                <pre class="pre">
-<code class="code">data = new Date();
-hour = data.getHours();
-minutes = data.getMinutes();
-seconds = data.getSeconds();
+                
 
-let timeRightNow = 'Текущее время: '
-+ hour + ':' + minutes + ':' + seconds;
-</code>
-              </pre>
+  <code class="code">data = new Date(); <br>
+  hour = data.getHours(); <br>
+  minutes = data.getMinutes(); <br>
+  seconds = data.getSeconds(); <br><br>
+  
+  let timeRightNow = 'Текущее время: '
+  + hour + ':' + minutes + ':' + seconds;
+  </code>
+
+             
               </div>
-            </div>
-            <div class="third_info">
-              <div class="my_projects">
+            
+
+            
+              <div class="my_projects" id="projects">
                 <h5>My projects</h5>
                 <a href="https://daniel.fvds.ru/">My first project</a>
               </div>
-              <div class="languages">
+              <div class="languages" id="languages">
                 <h5>Languages</h5>
                 <p>English - A2</p>     
               </div>
-            </div>
+            
           </div>
       </div>
     </section>
@@ -132,13 +174,13 @@ let timeRightNow = 'Текущее время: '
 
   <footer class="footer_wrap">
     <div class="fourth_container">
-      <h4>Contact with me</h4>
+      <h4 id="сontacts">Contact with me</h4>
       <p>I am also considering opportunities for job search and taking on new clients.</p>
       <div class="icons">
-        <div><i class="fa-brands fa-github fa-2xl"></i></div>
-        <div><i class="fa-brands fa-telegram fa-2xl"></i></div>
-        <div><i class="fa-solid fa-at fa-2xl"></i></div>
-        <div><i class="fa-brands fa-square-whatsapp fa-2xl"></i></div>
+        <div><a href="https://github.com/Umbassa-winner"><i class="fa-brands fa-github fa-2xl"></i></a></div>
+        <div><a href="https://t.me/nekopanyo"><i class="fa-brands fa-telegram fa-2xl"></i></a></div>
+        <div><a href="mailto:danilpan111@yandex.ru"><i class="fa-solid fa-at fa-2xl"></i></a></div>
+        <div><a href="https://wa.me/+79087160521"><i class="fa-brands fa-square-whatsapp fa-2xl"></i></a></div>
       </div>
       <div class="year_rsschool">
         <div class="year"><span>© 2023</span></div>
@@ -147,7 +189,11 @@ let timeRightNow = 'Текущее время: '
     </div>
   </footer>
 
+ <!-- JS -->
 
+ <script src="script.js"></script>
   
 </body>
 </html>
+
+
